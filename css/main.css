@@ -25,12 +25,12 @@ html {
  */
 
 ::-moz-selection {
-    background: #b3d4fc;
+    background: purple;
     text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
+    background: purple;
     text-shadow: none;
 }
 
@@ -97,15 +97,18 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color: #222;
   height: 100%;
+  width: 100%;
+  
 }
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 2em;
-  font-size: 1.25em;
+  font-weight: 700;
   height: 100%;
+  color: #fff;
 }
 
 .wrapper {
@@ -113,6 +116,7 @@ body {
   font-weight: 700;
   display: flex;
   justify-content: space-between;
+  flex-flow: row wrap;
 }
 
 .div-1, .div-2, .div-3 {
@@ -120,7 +124,7 @@ body {
   color: #fff;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
+  background-color: purple;
   height: 300px;
   width: 30%;
   display: flex;
